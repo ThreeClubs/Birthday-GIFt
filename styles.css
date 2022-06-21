@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.2rem;
+    color: #e80d1c;
+    letter-spacing: 0.1rem;
+    background-image: linear-gradient(black, #5eb1ab, #8dcdc9, #5eb1ab, black);
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #78dbd4;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #78dbd4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #78dbd4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #bc0b17;
+    border-radius: 25%;
+    background-image: url("images/transplog.png"); 
+    background-size: cover;
+    max-width: 418px;
+    margin: 50px auto;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #bc0b17;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-dancing:hover {
+    background-image: url("images/dancing.gif");
+}
+
+#gift-img-tea:hover {
+    background-image: url("images/tea.gif");
+}
+
+#gift-img-lobster:hover {
+    background-image: url("images/wonderful.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/lobster-bad.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheersflam.gif");
+}
+
+#footer {
+    width: 400px;
+    margin: 40px auto 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 0;
+    border: 2px solid #bc0b17;
+    padding: 20px 40px;
+    color: #ffffff;
+    background-color: #f4505b; 
+}
+
+a {
+    color: white;
+}
+
+#bff-img:hover {
+    transform: rotateZ(720deg);
+    transition-duration: 2s;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
